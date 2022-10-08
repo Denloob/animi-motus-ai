@@ -1,6 +1,6 @@
-try:
-    import kaggle
+import kaggle
 
+try:
     kaggle.api.dataset_download_files(
         "https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset",
         path="dataset",
