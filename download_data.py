@@ -1,11 +1,4 @@
 try:
-    from art import tprint
-
-    tprint("ASL dataset downloader", font="slant")
-except ImportError:
-    print("ASL dataset downloader")
-
-try:
     import kaggle
 
     kaggle.api.dataset_download_files(
