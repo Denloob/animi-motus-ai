@@ -3,3 +3,5 @@ CNN/
 ignore/
 *.csv
 *.pickle
+haarcascade_frontalface_default.xml
+private_test
